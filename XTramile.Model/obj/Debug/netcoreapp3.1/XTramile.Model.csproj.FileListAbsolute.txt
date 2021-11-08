@@ -1,0 +1,10 @@
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\bin\Debug\netcoreapp3.1\XTramile.Model.deps.json
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\bin\Debug\netcoreapp3.1\XTramile.Model.dll
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\bin\Debug\netcoreapp3.1\XTramile.Model.pdb
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\obj\Debug\netcoreapp3.1\XTramile.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\obj\Debug\netcoreapp3.1\XTramile.Model.AssemblyInfoInputs.cache
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\obj\Debug\netcoreapp3.1\XTramile.Model.AssemblyInfo.cs
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\obj\Debug\netcoreapp3.1\XTramile.Model.csproj.CoreCompileInputs.cache
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\obj\Debug\netcoreapp3.1\XTramile.Model.dll
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\obj\Debug\netcoreapp3.1\XTramile.Model.pdb
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Model\obj\Debug\netcoreapp3.1\XTramile.Model.csproj.AssemblyReference.cache

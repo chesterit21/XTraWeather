@@ -1,0 +1,13 @@
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\bin\Debug\netcoreapp3.1\XTramile.Infrastructure.deps.json
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\bin\Debug\netcoreapp3.1\XTramile.Infrastructure.dll
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\bin\Debug\netcoreapp3.1\XTramile.Infrastructure.pdb
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\obj\Debug\netcoreapp3.1\XTramile.Infrastructure.csproj.AssemblyReference.cache
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\obj\Debug\netcoreapp3.1\XTramile.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\obj\Debug\netcoreapp3.1\XTramile.Infrastructure.AssemblyInfoInputs.cache
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\obj\Debug\netcoreapp3.1\XTramile.Infrastructure.AssemblyInfo.cs
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\obj\Debug\netcoreapp3.1\XTramile.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\obj\Debug\netcoreapp3.1\XTramile.Infrastructure.dll
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\obj\Debug\netcoreapp3.1\XTramile.Infrastructure.pdb
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\bin\Debug\netcoreapp3.1\XTramile.Model.dll
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\bin\Debug\netcoreapp3.1\XTramile.Model.pdb
+E:\Test XTramile\TestWebApp\XTramile\XTramile.Infrastructure\obj\Debug\netcoreapp3.1\XTramile.Infrastructure.csproj.CopyComplete

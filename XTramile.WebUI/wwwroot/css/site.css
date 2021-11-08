@@ -1,0 +1,214 @@
+﻿
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: hidden;
+}
+.container {
+left: 0;
+top: 0;
+width: 100%;
+height: 100vh;
+animation: animate 30s ease-in-out infinite;
+background-size: cover;
+}
+@keyframes animate{
+  0%, 100% {
+    background-image: url('/img/bg-city.jfif');
+  }
+  33% {
+    background-image: url('/img/cloud-purple.jpg');
+  }
+  66% {
+    background-image: url('/img/city-bg.jpg');
+  }
+}
+.outer {
+  position: absolute; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0);
+  padding: 50px 20px;
+}
+.header{
+  width: 80%;
+  margin: 5px 85px;
+  padding: 5px 20px;
+  height: 130px;
+  background: rgba(0,0,0,0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+  color: #cacaca;
+}
+
+.details {
+  left: 50%;
+  top:50%;
+  text-align: center;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.full .ts-control,.ts-control input {
+  color: #dedede;
+}
+.ts-control{
+  border: 1px solid #383840;
+}
+.ts-dropdown, .ts-control, .ts-control input {  
+  font-size:18px;
+  line-height: 18px;
+  background: rgba(0,0,0,0.6) !important;
+  font-family: none;
+}
+.ts-dropdown .create:hover, .ts-dropdown .option:hover, .ts-dropdown .active {
+  /* background-color: #27282859; */
+  background: rgba(0,0,0,0.6) !important;
+  color: #aa88bf;
+  font-family: none;
+}
+.ts-dropdown [data-selectable].option {
+  color : #fefefe;
+  font-family: none;
+}
+.ts-dropdown-content::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.ts-dropdown-content::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+}
+
+.ts-dropdown-content::-webkit-scrollbar-thumb  
+{
+	border-radius: 10px;
+  height: 7px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.34, #373838),
+   								   color-stop(0.62, #283233),
+  								   color-stop(0.86, #373838));
+}
+.ts-dropdown-content{
+  border: 1px solid #000000;
+  font-family: none;
+}
+
+.grid-container{
+  display: flex;
+  margin-right: 5px;
+}
+.grid-item{
+  display: inline-block;
+  margin-right: 5px;
+}
+#ddl-country,#ddl-city{
+  width: calc(100%-10%) !important;
+}
+
+.ajax-loading img{ display : inline-block}
+.ajax-loading span { display : inline-block}
+.ajax-loading{
+  align-items: center;
+  justify-items: center;
+}
+
+.title-city{ color: #1dc39d; margin:0; font-size: 36px}
+.title-country { color: #cacaca; margin : 0px 15px 25px 15px}
+.icon-weather { border-radius: 10px; background: rgba(255,255,255,0.5); 
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.details {
+  font-family: none;
+}
+.details div span {
+  color: #fefefe;
+}
+.detail-weather {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color : #ffffff;
+}
+.detail-weather .item-weather {
+  margin : 5px;
+}
+.column .column-content h2 {
+  color : #1dc39d;
+  font-size : 22px;
+}
+.details div img {
+  margin : 5px;
+}
+.weather-description { text-transform :uppercase;}
+
+.container-flex {
+  max-width: 90%;
+  margin: 0 auto;
+  color: #ffffff !important;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-left: -12px;
+}
+.column {
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  margin-left: 12px;
+}
+.column-content {
+  padding: 20px;
+}
+
+.col2 {
+    width: calc(50% - 12px);
+}
+.col3 {
+    width: calc(33.333% - 12px);
+}        
+.col4 {
+    width: calc(25% - 12px);
+}
+.col5 {
+  width: calc(18.66% - 12px);
+}

@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="outer">
+    <div class="header">
+        <h2>XTRAMILE WEATHER INFO</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <label>Country : </label>
+                <select id="ddl-country" placeholder="Select a Country or just type here...">
+                </select>
+            </div>
+            <div class="grid-item">
+                <label>City : </label>
+                <select id="ddl-city" placeholder="Select a City or just type here...">
+                </select>
+                <div class="ajax-loading" style="display: none;"><br>
+                    <img width="25" src="https://theexecutive.co.id/pub/static/frontend/Delami/executive/en_US/css/ajax-loader.gif"><br> 
+                    <span>load data city, please wait...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="details">
+        <h2 class="title-city"></h2>
+        <h3 class="title-country"></h3>
+    </div>
+
+    <div class="container-flex">
+            <div class="flex">
+                <div class="column col4">
+                    <div class="column-content">
+                    <p>Temp (C)</p><h2 class="temp-cel"></h2>
+                    </div>
+                </div>
+                <div class="column col4">
+                    <div class="column-content">
+                        <img class="icon-weather"><br>
+                        <span class="weather-description"></span>
+                    </div>
+                </div>
+                <div class="column col4">
+                    <div class="column-content">
+                    <p>Temp (F)</p><h2 class="temp-fah"></h2>
+                    </div>
+                </div>
+
+                <div class="column col4">
+                    <div class="column-content">
+                    <p>Relative Humadity</p><h2 class="temp-humidity"></h2>
+                    </div>
+                </div>
+
+                <div class="column col5">
+                    <div class="column-content">
+                    <p>Dew Point</p><h2 class="temp-dew"></h2>
+                    </div>
+                </div>
+
+                <div class="column col5">
+                    <div class="column-content">
+                    <p>Pressure</p><h2 class="temp-pres"></h2>
+                    </div>
+                </div>
+                <div class="column col5">
+                    <div class="column-content">
+                    <p>Time</p><h2 class="temp-time"></h2>
+                    </div>
+                </div>
+
+                <div class="column col5">
+                    <div class="column-content">
+                    <p>Visibility</p><h2 class="temp-vis"></h2>
+                    </div>
+                </div>
+                <div class="column col5">
+                    <div class="column-content">
+                    Lat <h2 class="temp-lat"></h2>
+                    Lon <h2 class="temp-lon"></h2>
+                    </div>
+                </div>
+                <div class="column col5">
+                    <div class="column-content">
+                    Wind(deg) <h2 class="weather-deg"></h2>
+                    </div>
+                </div>
+                <div class="column col5">
+                    <div class="column-content">
+                    Wind(spped) :<h2 class="weather-speed"></h2>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
